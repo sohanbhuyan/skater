@@ -1,0 +1,151 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  /* header section */
+  .navbar-collapse{
+    z-index: 9;
+    background: #222;
+  }
+
+  /* banner section */
+  .carousel-item{
+    /*height: calc(70vh - 196px);
+    min-height: 400px;*/
+    height: 37vh;
+  }
+  .carousel-caption{
+    padding-bottom: 15px;
+  }
+  .carousel-caption p {
+    padding: 0 20px 0px 20px;
+    font-size: 12px;
+  }
+  .carousel-caption h1{
+    font-size: 1.8rem;
+    padding: 0 10px;
+  }
+  .carousel-caption button{
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+
+  /* services section */
+  .service-title p{
+    padding: 0 0px 40px 0px;
+  }
+  .iconbox p {
+    padding-right: 0px;
+  }
+  .best-title{
+    padding: 0px 0%;
+  }
+  ol, ul{
+    padding-left: 0;
+  }
+  .mentor-title {
+    padding: 25px 0%;
+  }
+
+  /* team section */
+  .team-head p{
+    padding: 0 0%;
+  }
+
+  /* pricing section */
+  .pricing-title p{
+    padding: 0 0%;
+  }
+  .pricing-box ul li{
+    padding-right: 0;
+  }
+
+  /* faq section */
+  .questions{
+    padding: 0 0;
+  }
+
+  /* blog section */
+  .blog-box{
+    margin-bottom: 20px;
+  }
+  .blog-box p{
+    padding: 0 10px;
+  }
+
+  /* contact section */
+  .contact-right {
+    padding: 0 0%;
+    margin-top: 35px;
+  }
+
+  /* footer section */
+  .footer-right input{
+    width: 70%;
+  }
+  .footer-right a i{
+    margin-bottom: 30px;
+  }
+  .copywrite h6{
+    font-size: 14px;
+  }
+}
