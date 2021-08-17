@@ -28,6 +28,35 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   
   /* CSS */
+  /* header section */
+  .navbar-collapse{
+    z-index: 9;
+    background: #222;
+  }
+
+  /* banner section */
+  .carousel-item{
+    height: 50vh;
+  }
+  .carousel-caption{
+    padding-bottom: 150px;
+  }
+  .carousel-caption p{
+    padding: 0 30px 30px 30px;
+  }
+  .carousel-caption h1{
+    font-size: 2rem;
+    padding: 0 35px;
+  }
+
+  /* services section */
+  .service-title p{
+    padding: 0 150px 35px 150px;
+    line-height: 1.8;
+  }
+  .iconbox p{
+    padding-right: 20px;
+  }
   
 }
 
